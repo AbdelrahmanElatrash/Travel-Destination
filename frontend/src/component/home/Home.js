@@ -1,5 +1,5 @@
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
+// import Footer from "../footer/Footer";
+// import Header from "../header/Header";
 import Tours from "../tours/Tours";
 import db from "../../data/db.json"
  
@@ -7,9 +7,9 @@ import db from "../../data/db.json"
 const Home =()=>{
     return (
         <div>
-           <Header/>
+           {/* <Header/> */}
            <Tours data={db}/>
-           <Footer/>
+           {/* <Footer/> */}
         </div>
     )
 }
